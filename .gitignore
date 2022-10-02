@@ -8,9 +8,15 @@
 # Terraform
 .terraform*
 *.tfstate
-*.tfstate.backup
-*.tfplan
+*.tfstate.*
+*.tfvars
+*.tfvars.json
 *.plan
+*tfplan*
+.terraformrc
+terraform.rc
+default.auto.tfvars
+backend.config
 
 # Terragrunt
 .terragrunt-cache
