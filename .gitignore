@@ -1,0 +1,19 @@
+# vscode
+.vscode/
+
+# OS X
+.history
+.DS_Store
+
+# Terraform
+.terraform*
+*.tfstate
+*.tfstate.backup
+*.tfplan
+*.plan
+
+# Terragrunt
+.terragrunt-cache
+
+# Atlantis
+atlantis.yaml
