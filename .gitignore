@@ -1,0 +1,25 @@
+# vscode
+.vscode/
+
+# OS X
+.history
+.DS_Store
+
+# Terraform
+.terraform*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.plan
+*tfplan*
+.terraformrc
+terraform.rc
+default.auto.tfvars
+backend.config
+
+# Terragrunt
+.terragrunt-cache
+
+# Atlantis
+atlantis.yaml
